@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402E4EF92327517F0047BC65 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E4EF82327517F0047BC65 /* HomePageController.swift */; };
+		40F9563F23266026006C489F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9563E23266026006C489F /* AppDelegate.swift */; };
+		40F9564123266026006C489F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9564023266026006C489F /* LoginViewController.swift */; };
+		40F9564623266028006C489F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F9564523266028006C489F /* Assets.xcassets */; };
+		40F9564923266028006C489F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F9564723266028006C489F /* LaunchScreen.storyboard */; };
+		FFC3BC21C7E1D1FD46D584FF /* Pods_AutoLayout_Stevia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A72F0D131F37AE585963068 /* Pods_AutoLayout_Stevia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A72F0D131F37AE585963068 /* Pods_AutoLayout_Stevia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayout_Stevia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		402E4EF82327517F0047BC65 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		40F9563B23266025006C489F /* AutoLayout_Stevia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_Stevia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F9563E23266026006C489F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40F9564023266026006C489F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		40F9564523266028006C489F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F9564823266028006C489F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40F9564A23266028006C489F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EAD4B5C7B7AC7A70094C9D7 /* Pods-AutoLayout_Stevia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout_Stevia.debug.xcconfig"; path = "Target Support Files/Pods-AutoLayout_Stevia/Pods-AutoLayout_Stevia.debug.xcconfig"; sourceTree = "<group>"; };
+		E31FAFA932919046D9884E22 /* Pods-AutoLayout_Stevia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayout_Stevia.release.xcconfig"; path = "Target Support Files/Pods-AutoLayout_Stevia/Pods-AutoLayout_Stevia.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40F9563823266025006C489F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC3BC21C7E1D1FD46D584FF /* Pods_AutoLayout_Stevia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D77B06A1BD5FBBCA298E1C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A72F0D131F37AE585963068 /* Pods_AutoLayout_Stevia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40F9563223266025006C489F = {
+			isa = PBXGroup;
+			children = (
+				40F9563D23266025006C489F /* AutoLayout_Stevia */,
+				40F9563C23266025006C489F /* Products */,
+				EA47F1D1C022A627C2FC5F71 /* Pods */,
+				3D77B06A1BD5FBBCA298E1C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40F9563C23266025006C489F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F9563B23266025006C489F /* AutoLayout_Stevia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F9563D23266025006C489F /* AutoLayout_Stevia */ = {
+			isa = PBXGroup;
+			children = (
+				40F9563E23266026006C489F /* AppDelegate.swift */,
+				40F9564023266026006C489F /* LoginViewController.swift */,
+				402E4EF82327517F0047BC65 /* HomePageController.swift */,
+				40F9564523266028006C489F /* Assets.xcassets */,
+				40F9564723266028006C489F /* LaunchScreen.storyboard */,
+				40F9564A23266028006C489F /* Info.plist */,
+			);
+			path = AutoLayout_Stevia;
+			sourceTree = "<group>";
+		};
+		EA47F1D1C022A627C2FC5F71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD4B5C7B7AC7A70094C9D7 /* Pods-AutoLayout_Stevia.debug.xcconfig */,
+				E31FAFA932919046D9884E22 /* Pods-AutoLayout_Stevia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40F9563A23266025006C489F /* AutoLayout_Stevia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F9564D23266028006C489F /* Build configuration list for PBXNativeTarget "AutoLayout_Stevia" */;
+			buildPhases = (
+				7340CC489066F8385F7F442B /* [CP] Check Pods Manifest.lock */,
+				40F9563723266025006C489F /* Sources */,
+				40F9563823266025006C489F /* Frameworks */,
+				40F9563923266025006C489F /* Resources */,
+				7108E890D6DE8871D2E26A98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayout_Stevia;
+			productName = AutoLayout_Stevia;
+			productReference = 40F9563B23266025006C489F /* AutoLayout_Stevia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F9563323266025006C489F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					40F9563A23266025006C489F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 40F9563623266025006C489F /* Build configuration list for PBXProject "AutoLayout_Stevia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40F9563223266025006C489F;
+			productRefGroup = 40F9563C23266025006C489F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F9563A23266025006C489F /* AutoLayout_Stevia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F9563923266025006C489F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F9564923266028006C489F /* LaunchScreen.storyboard in Resources */,
+				40F9564623266028006C489F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7108E890D6DE8871D2E26A98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoLayout_Stevia/Pods-AutoLayout_Stevia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoLayout_Stevia/Pods-AutoLayout_Stevia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoLayout_Stevia/Pods-AutoLayout_Stevia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7340CC489066F8385F7F442B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoLayout_Stevia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40F9563723266025006C489F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F9564123266026006C489F /* LoginViewController.swift in Sources */,
+				40F9563F23266026006C489F /* AppDelegate.swift in Sources */,
+				402E4EF92327517F0047BC65 /* HomePageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40F9564723266028006C489F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F9564823266028006C489F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40F9564B23266028006C489F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40F9564C23266028006C489F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40F9564E23266028006C489F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EAD4B5C7B7AC7A70094C9D7 /* Pods-AutoLayout_Stevia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHWHQ8YWTK;
+				INFOPLIST_FILE = AutoLayout_Stevia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.AutoLayout-Stevia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40F9564F23266028006C489F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31FAFA932919046D9884E22 /* Pods-AutoLayout_Stevia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHWHQ8YWTK;
+				INFOPLIST_FILE = AutoLayout_Stevia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.AutoLayout-Stevia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40F9563623266025006C489F /* Build configuration list for PBXProject "AutoLayout_Stevia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F9564B23266028006C489F /* Debug */,
+				40F9564C23266028006C489F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F9564D23266028006C489F /* Build configuration list for PBXNativeTarget "AutoLayout_Stevia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F9564E23266028006C489F /* Debug */,
+				40F9564F23266028006C489F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F9563323266025006C489F /* Project object */;
+}
